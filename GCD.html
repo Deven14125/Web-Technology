@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GCD</title>
+</head>
+
+<body>
+    <script>
+        a = prompt("Enter first number");
+        b = prompt("Enter second number");
+
+        n1 = a;
+        n2 = b;
+
+        while (b) { //loop untill b=0
+            temp = b; //temp=12
+            b = a % b; //b=6;
+            a = temp; //a=12;
+        }
+        document.write("GCD of " + n1 + " and " + n2 + " is :"+a);
+    </script>
+</body>
+
+</html>

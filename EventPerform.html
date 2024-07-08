@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body id="bdy">
+    <div id="heading">Hello Deven!</div>
+    <button id="datetime">Click Me</button>
+    <button id="red">Red</button>
+    <button id="green">Green</button>
+    <script>
+        let head = document.getElementById('heading');
+
+        head.addEventListener('mouseover',() => {head.style.backgroundColor = 'yellow'})
+        head.addEventListener('mouseout',() => {head.style.backgroundColor = 'black',head.style.color='white'})
+
+        let btn1 = document.getElementById('datetime');
+
+        btn1.addEventListener('click',() => {btn1})
+
+        let btn2 =document.getElementById('red');
+        let btn3 =document.getElementById('green');
+
+        btn2.addEventListener('click',() => {bdy.style.backgroundColor = 'red'})
+        btn3.addEventListener('click',() => {bdy.style.backgroundColor = 'green'})
+    </script>
+</body>
+</html>

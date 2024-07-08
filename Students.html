@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students</title>
+</head>
+
+<body>
+    <script>
+        Students = [
+            {
+                "EnrollmentNo": "1",
+                "name": "Silvia Hahn",
+                "Age": "wherever",
+                "JoinDate": "2023-08-24T19:49:23.358Z",
+                "City": "Buffalo Grove",
+                "Avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1093.jpg",
+                "id": "1"
+            },
+            {
+                "EnrollmentNo": "9",
+                "name": "Rudy Cronin",
+                "Age": "egghead",
+                "JoinDate": "2024-01-05T23:08:48.566Z",
+                "City": "Richardson",
+                "Avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/910.jpg",
+                "id": "2"
+            },
+            {
+                "EnrollmentNo": "2",
+                "name": "Opal Sauer",
+                "Age": "Argentine",
+                "JoinDate": "2023-09-13T18:49:43.689Z",
+                "City": "Taunton",
+                "Avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/107.jpg",
+                "id": "3"
+            },
+            {
+                "EnrollmentNo": "7",
+                "name": "Kenneth Nicolas",
+                "Age": "Bentley",
+                "JoinDate": "2023-11-24T06:15:10.342Z",
+                "City": "York",
+                "Avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/635.jpg",
+                "id": "4"
+            },
+            {
+                "EnrollmentNo": "9",
+                "name": "Deborah Walsh",
+                "Age": "Bulgarian",
+                "JoinDate": "2024-03-29T08:32:53.860Z",
+                "City": "Cranston",
+                "Avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/253.jpg",
+                "id": "5"
+            },
+            {
+                "EnrollmentNo": "9",
+                "name": "Garrett Predovic",
+                "Age": "serene",
+                "JoinDate": "2024-04-27T13:08:20.834Z",
+                "City": "Urbandale",
+                "Avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/232.jpg",
+                "id": "6"
+            },
+            {
+                "EnrollmentNo": "3",
+                "name": "Erika Schimmel",
+                "Age": "offensively",
+                "JoinDate": "2023-09-30T09:26:37.267Z",
+                "City": "West Palm Beach",
+                "Avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/704.jpg",
+                "id": "7"
+            },
+            {
+                "EnrollmentNo": "3",
+                "name": "Misty Welch",
+                "Age": "supposing",
+                "JoinDate": "2024-01-18T20:42:39.915Z",
+                "City": "Great Falls",
+                "Avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/125.jpg",
+                "id": "8"
+            },
+            {
+                "EnrollmentNo": "3",
+                "name": "Claudia Hettinger",
+                "Age": "cultivate",
+                "JoinDate": "2023-08-26T13:18:15.241Z",
+                "City": "Enid",
+                "Avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/946.jpg",
+                "id": "9"
+            },
+            {
+                "EnrollmentNo": "3",
+                "name": "Tommy Robel",
+                "Age": "Screen",
+                "JoinDate": "2023-07-05T18:04:30.032Z",
+                "City": "Boulder",
+                "Avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/202.jpg",
+                "id": "10"
+            },
+            {
+                "EnrollmentNo": "4",
+                "name": "Barbara Kautzer",
+                "Age": "Northwest",
+                "JoinDate": "2023-08-26T19:38:05.846Z",
+                "City": "Lexington-Fayette",
+                "Avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/454.jpg",
+                "id": "11"
+            },
+            {
+                "EnrollmentNo": "1",
+                "name": "Gretchen Schneider",
+                "Age": "ew",
+                "JoinDate": "2023-08-29T03:05:51.783Z",
+                "City": "Racine",
+                "Avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/797.jpg",
+                "id": "12"
+            },
+            {
+                "EnrollmentNo": "9",
+                "name": "Clarence Murphy",
+                "Age": "Accounts",
+                "JoinDate": "2023-09-29T17:55:05.388Z",
+                "City": "National City",
+                "Avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/192.jpg",
+                "id": "13"
+            },
+            {
+                "EnrollmentNo": "5",
+                "name": "Rochelle Dach IV",
+                "Age": "Livermorium",
+                "JoinDate": "2024-03-17T08:47:37.379Z",
+                "City": "Royal Oak",
+                "Avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/406.jpg",
+                "id": "14"
+            },
+            {
+                "EnrollmentNo": "4",
+                "name": "Julia Osinski",
+                "Age": "Soft",
+                "JoinDate": "2024-04-22T13:07:31.846Z",
+                "City": "Oklahoma City",
+                "Avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1176.jpg",
+                "id": "15"
+            },
+            {
+                "EnrollmentNo": "8",
+                "name": "Angelica Olson",
+                "Age": "aha",
+                "JoinDate": "2024-03-31T09:33:04.233Z",
+                "City": "Twin Falls",
+                "Avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/295.jpg",
+                "id": "16"
+            },
+            {
+                "EnrollmentNo": "9",
+                "name": "Brian Leannon",
+                "Age": "plum",
+                "JoinDate": "2023-07-16T13:55:22.327Z",
+                "City": "Watsonville",
+                "Avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/295.jpg",
+                "id": "17"
+            },
+            {
+                "EnrollmentNo": "6",
+                "name": "Hannah Bartell Sr.",
+                "Age": "Aluminium",
+                "JoinDate": "2023-11-13T22:52:11.567Z",
+                "City": "Palm Bay",
+                "Avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1060.jpg",
+                "id": "18"
+            },
+            {
+                "EnrollmentNo": "1",
+                "name": "Eunice Batz",
+                "Age": "Frozen",
+                "JoinDate": "2023-12-02T15:22:55.542Z",
+                "City": "Irondequoit",
+                "Avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/297.jpg",
+                "id": "19"
+            },
+            {
+                "EnrollmentNo": "2",
+                "name": "Ervin Schumm",
+                "Age": "interface",
+                "JoinDate": "2023-10-26T18:29:44.646Z",
+                "City": "Gastonia",
+                "Avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/933.jpg",
+                "id": "20"
+            }
+        ];
+
+        document.write("<table border=1 bg-primary>");
+        document.write("<th>ID</th>");
+        document.write("<th>ENROLLMENT NO</th>");
+        document.write("<th>NAME</th>");
+        document.write("<th>JOIN DATE</th>");
+        document.write("<th>AGE</th>");
+        document.write("<th>CITY</th>");
+        document.write("<th>PHOTO</th>");
+        
+        for(i = 0;i<Students.length;i++){
+            document.write("<tr>");
+            document.write("<td>"+Students[i].id+"</td>");
+            document.write("<td>"+Students[i].EnrollmentNo+"</td>");
+            document.write("<td>"+Students[i].name+"</td>");
+            document.write("<td>"+Students[i].JoinDate+"</td>");
+            document.write("<td>"+Students[i].Age+"</td>");
+            document.write("<td>"+Students[i].City+"</td>");
+            document.write("<td><img src="+Students[i].Avatar+"></td>");
+            document.write("</tr>");    
+        }
+
+        document.write("</table>");
+    </script>
+</body>
+
+</html>

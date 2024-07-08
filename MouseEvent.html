@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="btn">Click Me</button>
+    <script>
+        btn = document.getElementById('btn');
+
+        document.addEventListener('click',() => {btn.innerHTML = "Clicked"})
+        document.addEventListener('dblclick',() => {btn.innerHTML = "Double Clicked"})
+        document.addEventListener('mousemove',() => {btn.innerHTML = "mousemove"})
+        document.addEventListener('mouseout',() => {btn.innerHTML = "mouseout"})
+        document.addEventListener('mouseup',() => {btn.innerHTML = "mouseup"})
+    </script>
+</body>
+</html>

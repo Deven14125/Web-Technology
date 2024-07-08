@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Armstrong</title>
+</head>
+
+<body>
+    <script>
+        n = prompt("Enter a number");
+
+        let temp = n;
+        let sum = 0;
+
+        while (temp > 0) {
+            // 153/10
+            let r = temp % 10;
+            sum += r ** 3;
+            temp = parseInt(temp / 10);
+        }
+        if (sum == n) {
+            alert(n + " is armstrong number");
+        }
+    </script>
+</body>
+
+</html>

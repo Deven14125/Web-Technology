@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+    <script>
+        a = prompt("Enter a first number");
+        b = prompt("Enter a second number");
+
+        ope = prompt("Enter a operation you want to perform(+,-,*,/)");
+
+        if(ope == '+'){
+            alert(parseInt(a)+parseInt(b));
+        }
+        else if(ope == '-'){
+            alert(parseInt(a)-parseInt(b));
+        }
+        else if(ope == '*'){
+            alert(parseInt(a)*parseInt(b));
+        }
+        else if(ope == '/'){
+            alert(parseInt(a)/parseInt(b));
+        }
+        else if(ope == '%'){
+            alert(parseInt(a)%parseInt(b));
+        }
+    </script>
+</body>
+</html>

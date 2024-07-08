@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+</head>
+
+<body>
+    <script>
+        Products = [
+            {
+                "createdAt": "2024-06-18T18:13:37.162Z",
+                "name": "Fantastic Fresh Shirt",
+                "Exp": "2024-08-01T01:41:07.399Z",
+                "Email": "Maribel.Schinner67@example.org",
+                "contact": "829.777.1777",
+                "about": "The beautiful range of Apple Naturalé that has an exciting mix of natural ingredients. With the Goodness of 100% Natural Ingredients",
+                "Image": "https://loremflickr.com/640/480/abstract",
+                "id": "1"
+            },
+            {
+                "createdAt": "2024-06-19T04:07:51.930Z",
+                "name": "Bespoke Cotton Gloves",
+                "Exp": "2024-07-17T13:31:00.096Z",
+                "Email": "Kristopher5@example.com",
+                "contact": "(691) 446-3344 x347",
+                "about": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+                "Image": "https://loremflickr.com/640/480/abstract",
+                "id": "2"
+            },
+            {
+                "createdAt": "2024-06-19T11:03:41.086Z",
+                "name": "Luxurious Fresh Bike",
+                "Exp": "2025-05-09T19:00:44.436Z",
+                "Email": "Zoie22@example.net",
+                "contact": "333.474.7180 x0183",
+                "about": "The slim & simple Maple Gaming Keyboard from Dev Byte comes with a sleek body and 7- Color RGB LED Back-lighting for smart functionality",
+                "Image": "https://loremflickr.com/640/480/abstract",
+                "id": "3"
+            },
+            {
+                "createdAt": "2024-06-18T19:57:27.101Z",
+                "name": "Practical Plastic Sausages",
+                "Exp": "2024-12-03T14:19:47.875Z",
+                "Email": "Gerry53@example.net",
+                "contact": "1-749-399-9360 x44440",
+                "about": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+                "Image": "https://loremflickr.com/640/480/abstract",
+                "id": "4"
+            },
+            {
+                "createdAt": "2024-06-19T09:00:21.790Z",
+                "name": "Refined Plastic Table",
+                "Exp": "2025-03-16T10:57:39.219Z",
+                "Email": "Eryn53@example.org",
+                "contact": "206.493.3297 x5087",
+                "about": "The Football Is Good For Training And Recreational Purposes",
+                "Image": "https://loremflickr.com/640/480/abstract",
+                "id": "5"
+            },
+            {
+                "createdAt": "2024-06-19T02:07:45.572Z",
+                "name": "Recycled Cotton Fish",
+                "Exp": "2025-03-19T01:57:24.296Z",
+                "Email": "Estel65@example.com",
+                "contact": "604.941.2803",
+                "about": "The automobile layout consists of a front-engine design, with transaxle-type transmissions mounted at the rear of the engine and four wheel drive",
+                "Image": "https://loremflickr.com/640/480/abstract",
+                "id": "6"
+            },
+            {
+                "createdAt": "2024-06-18T23:43:30.458Z",
+                "name": "Sleek Bronze Ball",
+                "Exp": "2024-12-02T18:14:52.475Z",
+                "Email": "Brendan_Thiel@example.com",
+                "contact": "224.634.7442 x74399",
+                "about": "The Apollotech B340 is an affordable wireless mouse with reliable connectivity, 12 months battery life and modern design",
+                "Image": "https://loremflickr.com/640/480/abstract",
+                "id": "7"
+            },
+            {
+                "createdAt": "2024-06-19T01:49:31.248Z",
+                "name": "Recycled Fresh Ball",
+                "Exp": "2024-08-05T22:11:34.262Z",
+                "Email": "Wade_Cruickshank29@example.com",
+                "contact": "(796) 212-6117 x6181",
+                "about": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+                "Image": "https://loremflickr.com/640/480/abstract",
+                "id": "8"
+            },
+            {
+                "createdAt": "2024-06-18T15:55:41.446Z",
+                "name": "Small Cotton Salad",
+                "Exp": "2024-06-25T20:26:14.007Z",
+                "Email": "Hailie_Johnson87@example.net",
+                "contact": "(959) 532-2883 x10986",
+                "about": "The Football Is Good For Training And Recreational Purposes",
+                "Image": "https://loremflickr.com/640/480/abstract",
+                "id": "9"
+            },
+            {
+                "createdAt": "2024-06-18T23:54:24.478Z",
+                "name": "Fantastic Plastic Pizza",
+                "Exp": "2025-03-16T23:26:48.757Z",
+                "Email": "Hubert.Kautzer@example.net",
+                "contact": "389-326-5215 x9728",
+                "about": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+                "Image": "https://loremflickr.com/640/480/abstract",
+                "id": "10"
+            },
+            {
+                "createdAt": "2024-06-18T21:44:22.135Z",
+                "name": "Electronic Wooden Pizza",
+                "Exp": "2025-01-24T05:53:20.428Z",
+                "Email": "Arne62@example.org",
+                "contact": "1-560-842-9835 x894",
+                "about": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+                "Image": "https://loremflickr.com/640/480/abstract",
+                "id": "11"
+            },
+            {
+                "createdAt": "2024-06-19T02:08:24.584Z",
+                "name": "Bespoke Cotton Tuna",
+                "Exp": "2025-04-08T05:22:08.802Z",
+                "Email": "Kailey.Parker@example.org",
+                "contact": "415-474-0819 x746",
+                "about": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+                "Image": "https://loremflickr.com/640/480/abstract",
+                "id": "12"
+            },
+            {
+                "createdAt": "2024-06-18T18:25:48.972Z",
+                "name": "Intelligent Plastic Soap",
+                "Exp": "2025-04-28T04:59:24.254Z",
+                "Email": "Stephanie.Hand@example.com",
+                "contact": "662-468-0548",
+                "about": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+                "Image": "https://loremflickr.com/640/480/abstract",
+                "id": "13"
+            },
+            {
+                "createdAt": "2024-06-19T00:46:08.753Z",
+                "name": "Awesome Steel Shoes",
+                "Exp": "2024-10-09T07:25:29.817Z",
+                "Email": "Corine55@example.net",
+                "contact": "861-955-7014 x840",
+                "about": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+                "Image": "https://loremflickr.com/640/480/abstract",
+                "id": "14"
+            },
+            {
+                "createdAt": "2024-06-19T00:12:45.399Z",
+                "name": "Licensed Cotton Table",
+                "Exp": "2025-02-09T16:21:41.088Z",
+                "Email": "Viva_Ryan@example.org",
+                "contact": "934.393.5245 x332",
+                "about": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+                "Image": "https://loremflickr.com/640/480/abstract",
+                "id": "15"
+            },
+            {
+                "createdAt": "2024-06-19T03:47:42.088Z",
+                "name": "Incredible Frozen Salad",
+                "Exp": "2024-10-03T08:34:01.697Z",
+                "Email": "Effie53@example.net",
+                "contact": "1-863-705-8975 x31655",
+                "about": "Carbonite web goalkeeper gloves are ergonomically designed to give easy fit",
+                "Image": "https://loremflickr.com/640/480/abstract",
+                "id": "16"
+            },
+            {
+                "createdAt": "2024-06-18T15:18:42.712Z",
+                "name": "Handcrafted Fresh Bacon",
+                "Exp": "2025-03-09T03:12:06.015Z",
+                "Email": "Christiana_Parker@example.com",
+                "contact": "550.885.6003 x5041",
+                "about": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+                "Image": "https://loremflickr.com/640/480/abstract",
+                "id": "17"
+            },
+            {
+                "createdAt": "2024-06-19T04:20:36.432Z",
+                "name": "Awesome Wooden Mouse",
+                "Exp": "2025-02-18T19:47:07.722Z",
+                "Email": "Waldo.Johnson61@example.com",
+                "contact": "777-795-1348 x096",
+                "about": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+                "Image": "https://loremflickr.com/640/480/abstract",
+                "id": "18"
+            },
+            {
+                "createdAt": "2024-06-19T06:32:40.172Z",
+                "name": "Gorgeous Plastic Hat",
+                "Exp": "2025-02-27T20:18:06.991Z",
+                "Email": "Herminio_Kerluke@example.com",
+                "contact": "994-662-5447",
+                "about": "New range of formal shirts are designed keeping you in mind. With fits and styling that will make you stand apart",
+                "Image": "https://loremflickr.com/640/480/abstract",
+                "id": "19"
+            },
+            {
+                "createdAt": "2024-06-19T05:55:48.017Z",
+                "name": "Luxurious Bronze Salad",
+                "Exp": "2024-10-13T07:28:55.458Z",
+                "Email": "Jennifer_Pfannerstill@example.com",
+                "contact": "202-424-4838 x957",
+                "about": "The Nagasaki Lander is the trademarked name of several series of Nagasaki sport bikes, that started with the 1984 ABC800J",
+                "Image": "https://loremflickr.com/640/480/abstract",
+                "id": "20"
+            },
+            {
+                "createdAt": "2024-06-19T09:18:49.755Z",
+                "name": "Recycled Metal Shirt",
+                "Exp": "2025-06-09T16:49:41.369Z",
+                "Email": "Adelle.Toy33@example.com",
+                "contact": "554.831.4397 x8095",
+                "about": "Ergonomic executive chair upholstered in bonded black leather and PVC padded seat and back for all-day comfort and support",
+                "Image": "https://loremflickr.com/640/480/abstract",
+                "id": "21"
+            },
+            {
+                "createdAt": "2024-06-19T01:39:18.411Z",
+                "name": "Awesome Bronze Bike",
+                "Exp": "2024-08-11T21:33:17.408Z",
+                "Email": "Lauriane_Brakus@example.com",
+                "contact": "(480) 734-5452 x201",
+                "about": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+                "Image": "https://loremflickr.com/640/480/abstract",
+                "id": "22"
+            },
+            {
+                "createdAt": "2024-06-19T10:50:31.476Z",
+                "name": "Gorgeous Soft Car",
+                "Exp": "2025-04-13T19:38:35.240Z",
+                "Email": "Aida87@example.net",
+                "contact": "(521) 673-3481 x172",
+                "about": "Boston's most advanced compression wear technology increases muscle oxygenation, stabilizes active muscles",
+                "Image": "https://loremflickr.com/640/480/abstract",
+                "id": "23"
+            },
+            {
+                "createdAt": "2024-06-19T02:41:08.265Z",
+                "name": "Unbranded Metal Pizza",
+                "Exp": "2024-10-24T18:19:17.705Z",
+                "Email": "Marietta.Marvin@example.org",
+                "contact": "(642) 318-2249",
+                "about": "New ABC 13 9370, 13.3, 5th Gen CoreA5-8250U, 8GB RAM, 256GB SSD, power UHD Graphics, OS 10 Home, OS Office A & J 2016",
+                "Image": "https://loremflickr.com/640/480/abstract",
+                "id": "24"
+            },
+            {
+                "createdAt": "2024-06-18T22:02:16.157Z",
+                "name": "Bespoke Plastic Shirt",
+                "Exp": "2024-12-23T12:51:46.020Z",
+                "Email": "Zackary.Mraz68@example.com",
+                "contact": "754-707-2645 x13865",
+                "about": "Andy shoes are designed to keeping in mind durability as well as trends, the most stylish range of shoes & sandals",
+                "Image": "https://loremflickr.com/640/480/abstract",
+                "id": "25"
+            }
+        ]
+
+        document.write("<table border=1");
+        document.write("<tr>");
+        document.write("<th>ID</th>");
+        document.write("<th>Name</th>");
+        document.write("<th>Exp</th>");
+        document.write("<th>Email</th>");
+        document.write("<th>Contact</th>");
+        document.write("<th>Image</th>");
+        document.write("<th>About</th>");
+        document.write("</tr>");
+        for (var i = 0; i < Products.length; i++) {
+            document.write("<tr>");
+            document.write("<td>" + Products[i].id + "</td>");
+            document.write("<td>" + Products[i].name + "</td>");
+            document.write("<td>" + Products[i].Exp + "</td>");
+            document.write("<td>" + Products[i].Email + "</td>");
+            document.write("<td>" + Products[i].contact + "</td>");
+            document.write("<td><img src= "+ Products[i].Image + "</td>");
+            document.write("<td>" + Products[i].about + "</td>");
+            document.write("</tr>");
+        }
+        document.write("</table>");
+    </script>
+</body>
+
+</html>

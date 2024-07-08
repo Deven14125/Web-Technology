@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BubblrShort</title>
+</head>
+
+<body>
+    <script>
+        n = parseInt(prompt("Enter Size Of Array :"));
+
+        Array = [n];
+
+        for (i = 0; i < n; i++) {
+            Array[i] = prompt("Enter a[" + i + "] :");
+        }
+
+        for (i = 0; i < n; i++) {
+            document.write(Array[i] + " ");
+        }
+
+        for (i = 0; i < n; i++) {
+            for (j = 0; j < n - i - 1; j++) {
+                if (Array[j] > Array[j + 1]) {
+                    temp = Array[j];
+                    Array[j] = Array[j+1];
+                    Array[j+1] = temp;
+                }
+            }
+            //Array[maxIndex] = Array[j];
+            //Array[j] = max;
+        }
+        document.write("</br>");
+        document.write("Sorted Array :");
+        for (i = 0; i < n; i++) {
+            document.write(Array[i] + " ");
+        }
+    </script>
+</body>
+
+</html>

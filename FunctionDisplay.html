@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FunctionDisplay</title>
+</head>
+
+<body>
+    <script>
+        array = ['Rajkot', 'Mumbai', 'Morbi', 'Delhi', 'Ahmedabad', 'Bhuj', 'Vadodara', 'Pune'];
+
+        array.push("Gandhinagar");
+
+        document.write(array);
+
+        array.unshift("Diu");
+
+        document.write(" unshift <br>" + array);
+
+        array.pop();
+
+        document.write("<br>" + array);
+
+        array.shift();
+
+        document.write("<br>" + array);
+
+        newArr =(array.slice(0, 5));
+        document.write("<br>" );
+        document.write("slice= "+newArr);
+            
+        newArr1 = (array.splice(2, 5));
+        document.write("<br>" );
+        document.write("splice = "+newArr1);
+    </script>
+</body>
+
+</html>

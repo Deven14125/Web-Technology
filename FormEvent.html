@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form onsubmit="return false" onreset="return false">
+        <button type="submit" id="submit">Submit</button>
+        <button type="reset" id="reset">Reset</button>
+    </form>
+
+    <script>
+        btn1 = document.getElementById('submit');
+        btn2 = document.getElementById('reset');
+
+        document.addEventListener('submit',() => {btn1.innerHTML = "Submitted Sucessfully"})
+        document.addEventListener('reset',() => {btn2.innerHTML = "Reset Sucessfully"})
+    </script>
+</body>
+</html>

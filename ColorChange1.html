@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body id="bdy">
+    <button id="btn" onclick="cdColor()">Click Me</button>
+    <script>
+        function cdColor() {
+            let a = Math.random() * 255;
+            let b = Math.random() * 255;
+            let c = Math.random() * 255;
+
+            bdy.style.backgroundColor = `rgb(${a},${b},${c})`;
+        }
+        setInterval(cdColor);
+    </script>
+</body>
+
+</html>

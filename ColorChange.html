@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Change On Click</title>
+    <style>
+        #changeColor{
+            background-color: beige;
+        }
+        #changeColor:hover{
+            background-color: aquamarine;
+        }
+
+    </style>
+</head>
+<body>
+    <button id="changeColor">Dark Mode</button>
+    <script>
+        let mode = document.querySelector("#changeColor");
+        let currentMode = "light";
+
+        mode.addEventListener("click",()=>{
+            if(currentMode==="light"){
+                currentMode="dark";
+                document.querySelector("body").style.backgroundColor="black";
+            }
+            else{ 
+                currentMode="light";
+                document.querySelector("body").style.backgroundColor="white";
+            }
+        });
+    </script>
+</body>
+</html>
